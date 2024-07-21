@@ -1,0 +1,40 @@
+.subscription {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subscription h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Ibarra Real Nova', serif; /* Ensure font is imported */
+
+}
+
+.subscription form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscription input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Adjust the width as needed */
+}
+
+.subscription button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    background-color: #62D3F7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription button:hover {
+    background-color: #3c5d80; /* Darken button color on hover */
+}

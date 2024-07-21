@@ -1,0 +1,81 @@
+.confirmation-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f9f9f9;
+    font-family: 'Ibarra Real Nova', serif; /* Apply the font */
+}
+
+.confirmation-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Sansita Swashed', cursive; /* Apply Sansita Swashed font */
+    color: #333
+}
+
+.confirmation-page p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.confirmation-page button {
+    background-color: #B9EEFF;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirmation-page button:hover {
+    background-color: #3c5d80;
+}
+
+
+.feedback-section {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Ibarra Real Nova', serif; /* Apply the font */
+}
+
+.feedback-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.feedback-section form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ibarra Real Nova', serif; /* Apply the font */
+}
+
+.feedback-section textarea,
+.feedback-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Ibarra Real Nova', serif; /* Apply the font */
+}
+
+.feedback-section button {
+    background-color: #B9EEFF;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%; /* Make the button the same width as the text boxes */
+}
+
+.feedback-section button:hover {
+    background-color: #3c5d80;
+}

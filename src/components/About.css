@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+    font-family: 'Ibarra Real Nova', serif; 
+}
+
+.about-bali {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: make the font bold */
+}
+
+.bali-info {
+    flex: 1;
+    margin: 10px;
+}
+
+.bali-info img {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Adjust as needed */
+    border-radius: 8px;
+}

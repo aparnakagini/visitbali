@@ -1,0 +1,114 @@
+.dining-page {
+  font-family: 'Ibarra Real Nova', serif; /* Apply the font */
+  color: #333;
+}
+
+.dining-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.dining-image {
+  width: 100%;
+  height: auto;
+}
+
+.dining-title {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  font-family: 'Sansita Swashed', cursive; /* Apply Sansita Swashed font */
+  font-weight: bold; /* Make the font bold */
+  color: #333; /* Change the color to grey */
+}
+
+.dining-intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.dining-intro h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter label {
+  margin-bottom: 5px;
+}
+
+.filter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dining-options {
+  text-align: center;
+  padding: 20px;
+}
+
+.dining-options h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.dining-options h3 {
+  text-align: left;
+  margin-left: 45px;
+}
+
+.restaurant-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px; /* Adjust the gap between cards */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.restaurant-card {
+  text-align: center;
+}
+
+.restaurant-card img {
+  width: 100%;
+  max-width: 400px; /* Set a maximum width */
+  height: 300px; /* Ensure all images are the same height */
+  object-fit: cover; /* Ensure the image covers the container */
+  border-radius: 10px; /* Round the corners of the image */
+}
+
+.restaurant-card h4 {
+  margin: 10px 0;
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-stars i {
+  color: gold;
+  margin: 0 2px;
+}
+
+.no-results {
+  text-align: left;
+  width: 100%;
+  margin-left: 45px; /* Align to the left */
+}
