@@ -1,0 +1,22 @@
+.timer {
+    position: fixed;
+    bottom: 10px; /* Adjust distance from bottom */
+    right: 10px;  /* Adjust distance from right */
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc; /* Add border for better visibility */
+}
+
+.timer h2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(116, 7, 7);
+}

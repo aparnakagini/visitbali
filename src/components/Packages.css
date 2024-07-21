@@ -1,0 +1,71 @@
+/* Ensure the font is imported */
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap');
+
+.packages {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.packages h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.package-list {
+    display: flex;
+    justify-content: center; /* Center the package list */
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.package-item {
+    background-color: #B9EEFF; /* Light blue background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center; /* Center align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.package-item img {
+    width: 100%; /* Make images the same size */
+    height: auto;
+    border-radius: 10px;
+}
+
+.package-item h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.package-item p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.package-item .price {
+    font-size: 2rem;
+    color: #EB4335;
+    margin-top: 10px;
+}
+
+.browse-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    background-color: #B9EEFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.browse-more-btn:hover {
+    background-color: #3c5d80; /* Darken button color on hover */
+}

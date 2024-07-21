@@ -1,0 +1,76 @@
+.attractions-footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ibarra Real Nova', serif; /* Apply the font */
+  }
+  
+  .footer-left, .footer-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-logo {
+    width: 100px; /* Adjust as needed */
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #007BFF;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: inline-block;
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin: 0 5px;
+    font-size: 1.2rem;
+  }
+  
+  .footer-info {
+    margin-top: 10px;
+  }
+  
+  .footer-info a {
+    color: #007BFF;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-info a:hover {
+    text-decoration: underline;
+  }
+  

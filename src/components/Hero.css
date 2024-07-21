@@ -1,0 +1,42 @@
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%; /* Adjust to move the text higher up */
+    left: 30%; /* Adjust to move the text more to the left */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 20;
+}
+
+.hero-text h1 {
+    font-size: 8rem; /* Adjust font size as needed */
+    margin: 0;
+    font-family: 'Sansita Swashed', cursive; /* Apply Sansita Swashed font */
+    font-weight: bold; /* Make the font bold */
+    color: white;
+    top: 30%;
+    
+}
+
+.hero-text p {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin: 10px 0 0 0;
+    font-family: 'Ibarra Real Nova', serif; /* Ensure font is imported */
+    background-color: #333;
+    color: white;
+}
